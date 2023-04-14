@@ -1,0 +1,58 @@
+let itemList = [
+  {
+    id: 1,
+    img: "image/1.jpg",
+    name: "Casual Shirt",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing.",
+    price: 105,
+  },
+  {
+    id: 2,
+    img: "image/2.jpg",
+    name: "Casual Shirt",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing.",
+    price: 110,
+  },
+  {
+    id: 3,
+    img: "image/3.jpg",
+    name: "Casual Shirt",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing.",
+    price: 95,
+  },
+  {
+    id: 4,
+    img: "image/4.jpg",
+    name: "Casual Shirt",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing.",
+    price: 45,
+  },
+  {
+    id: 5,
+    img: "image/5.jpg",
+    name: "Casual Shirt",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing.",
+    price: 75,
+  },
+  {
+    id: 6,
+    img: "image/6.jpg",
+    name: "Casual Shirt",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing.",
+    price: 60,
+  },
+  {
+    id: 7,
+    img: "image/7.jpg",
+    name: "Casual Shirt",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing.",
+    price: 175,
+  },
+  {
+    id: 8,
+    img: "image/8.jpg",
+    name: "Casual Shirt",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing.",
+    price: 200,
+  },
+];

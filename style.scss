@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  nav {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+    justify-content: space-around;
+    height: 90px;
+    align-items: center;
+    background: #1b263b;
+    color: whitesmoke;
+    a {
+      text-decoration: none;
+      color: whitesmoke;
+    }
+    div {
+      position: relative;
+      h3 {
+        position: absolute;
+        right: -30px;
+        top: -30px;
+        background-color: rgb(1, 101, 101);
+        color: greenyellow;
+        padding: 2px;
+        border-radius: 3px;
+      }
+    }
+  }
+}
+main {
+  display: grid;
+  padding-top: 140px;
+  justify-content: center;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fill, 250px);
+  div {
+    background-color: whitesmoke;
+    box-shadow: purple 0px 0px 5px;
+    border-radius: 10px;
+    img {
+      box-shadow: none;
+      height: 250px;
+      width: 250px;
+      border-radius: 10px 10px 0 0;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      box-shadow: none;
+      div {
+        box-shadow: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .fa-plus {
+          cursor: pointer;
+          color: green;
+          &:focus {
+            color: greenyellow;
+          }
+        }
+        .fa-minus {
+          cursor: pointer;
+          color: red;
+          &:focus {
+            color: rgb(254, 41, 41);
+          }
+        }
+      }
+    }
+  }
+}
+#bill {
+  display: grid;
+  padding-top: 50px;
+  justify-content: center;
+  gap: 20px;
+  grid-template-rows: repeat(auto-fill, 300px);
+  div {
+    display: flex;
+    box-shadow: purple 0px 0px 5px;
+    background: whitesmoke;
+    h3 {
+      font-family: "Poppins", sans-serif;
+      size: 30px;
+    }
+    border-radius: 10px;
+    img {
+      box-shadow: none;
+      height: 300px;
+      width: 400px;
+      border-radius: 10px 0 0 10px;
+    }
+    div {
+      box-shadow: none;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      position: relative;
+      button {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        border: none;
+        color: red;
+        cursor: pointer;
+        &:hover {
+          color: white;
+          background: red;
+          border-radius: 100%;
+        }
+        &:focus {
+          box-shadow: red 0 0 20px;
+        }
+      }
+      .totalAmount {
+        position: absolute;
+        bottom: 20px;
+        left: 40px;
+      }
+    }
+  }
+}
+#sumOfBill {
+  background: red;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  height: 180px;
+  padding-top: 130px;
+  h1 {
+    color: whitesmoke;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-around;
+    button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 10px;
+      border: none;
+      // font-size: large;
+      box-shadow: black 0px 0 5px;
+      cursor: pointer;
+    }
+  }
+}
